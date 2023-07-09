@@ -1,9 +1,12 @@
-import { View, Text, TextInput, ScrollView, SafeAreaView } from 'react-native'
+import { View, Text, Image, TextInput, ScrollView, SafeAreaView } from 'react-native'
 import supabase from '../supabase'
 
-const Auth = () =>  {
+const Welcome = () =>  {
   return (
     <SafeAreaView>
+      {/* <View>
+        <Image />
+      </View> */}
       <View>
         <Text>Welcome</Text>
       </View>
@@ -11,4 +14,4 @@ const Auth = () =>  {
   )
 }
 
-export default Auth
+export default Welcome
