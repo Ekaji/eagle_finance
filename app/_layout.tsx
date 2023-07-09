@@ -8,7 +8,7 @@ SplashScreen.preventAutoHideAsync();
 
 export default function Layout() {
     const [fontsLoaded] = useFonts({
-        Satoshi_Variable: require('../assets/fonts/Satoshi-Variable'),
+        Satoshi_Regular: require('../assets/fonts/Satoshi-Variable'),
         Satoshi_Itali: require('../assets/fonts/Satoshi-VariableItalic')
     })
 
